@@ -1,0 +1,19 @@
+[
+To round double value to decimal.
+->use .toStringAsFixed(). For eg
+                       double prize=12.334444
+                    print(prize.toStringAsFixed(2));
+]
+
+[
+To find the value is in which data type:
+-> use runtimeType.   For eg:
+                       int a=10;
+                       print('Type of a is: $a.runtimeType');
+]
+
+[
+To replace string:
+->Use .replaceAll(). For eg:
+                String eg='I like mango'.
+                String newText=eg.replaceAll('Mango','Banana');
