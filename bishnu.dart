@@ -5,12 +5,12 @@ void main() {
   print("""
                       What's Your name""");
   String? name = stdin.readLineSync();
-  print("""Wow thats great to meet you bishnu
+  print("""Wow thats great to meet you Aashish
                       Lets play a game """);
   print('Would you like to find your crush');
   String? crush = stdin.readLineSync();
   if (crush == 'yes') {
-    var list = ['Surakhshya', 'Sanju', 'Aasha', 'Garima'];
+    var list = ['Surakhshya', 'Aasha', 'Aasha', 'Aasha'];
     final random = new Random();
     print("""                      Are you sure
                     I am Ai and I always give accurate answer
@@ -20,7 +20,7 @@ void main() {
     String? confirm = stdin.readLineSync();
     if (confirm == 'yes') {
       String? num2 = list[random.nextInt(list.length)];
-      print(' Congratulations Bishnu! you have crush on $num2');
+      print(' Congratulations Aashish! you have crush on $num2');
     }
   }
 }
